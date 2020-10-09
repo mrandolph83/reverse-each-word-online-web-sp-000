@@ -4,9 +4,9 @@ def reverse_each_word(sentence)
 # 3) Return each word in the sentence backwards using .collect
   updated_sentence = []
   sentence.split
-  sentence.each do |words|
+  sentence.collect do |words|
 
-    updated_sentence << words.reverse!
+    updated_sentence << words.reverse
   end
   updated_sentence
 end
