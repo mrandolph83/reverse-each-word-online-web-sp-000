@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
 # 3) Return each word in the sentence backwards using .collect
   split_array = sentence.split(" ")
   updated_sentence = []
-  updated sentence = split_array.collect do |words|
+  updated_sentence = split_array.collect do |words|
     words.reverse
   end
   updated_sentence.join(" ")
