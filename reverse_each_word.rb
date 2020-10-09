@@ -8,5 +8,5 @@ def reverse_each_word(sentence)
 
     updated_sentence << words.reverse
   end
-  updated_sentence
+  updated_sentence.join
 end
